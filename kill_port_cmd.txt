@@ -1,0 +1,4 @@
+1. Find PID port:
+  netstat -ano | findstr <:port>
+2. Kill port
+  taskkill /F /PID <pid_code>
